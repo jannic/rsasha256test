@@ -1,0 +1,10 @@
+[package]
+name = "rsasha256test"
+version = "0.1.0"
+authors = ["Jan Niehusmann <jan@gondor.com>"]
+
+[dependencies]
+trust-dns = { git = "https://github.com/bluejekyll/trust-dns", branch = "key_flags" }
+openssl = "0.9"
+base64 = "0.5"
+
